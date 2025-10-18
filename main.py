@@ -1,21 +1,12 @@
-#Welcome To The World Of Coding!
-    
-print("Welcome to the world of programming!")    
-print(4)
-print("hello, 5")
-print("Welcome to", end="*")
-x = 5
-y = "Rohail"
-print({x})
-print({y})
-codingal = "Penguin"
-number = 1
-print({codingal})
-print({number})
-name = input("Enter your name")
-print("My name is ", {name})
+tree1 = 98
+tree2 = 94
+tree3 = 41
+tree4 = 95
+tree5 = 11
 
-#Keywords
-import keyword
-print("Python Keywords Are...\n")
-print(keyword.kwlist)
+sum = tree1+tree2+tree3+tree4+tree5
+print ("The sum of all the trees is: ", sum)
+
+
+average = sum/5
+print("The average of all the trees is:", average)
