@@ -1,12 +1,11 @@
-tree1 = 98
-tree2 = 94
-tree3 = 41
-tree4 = 95
-tree5 = 11
+answer = input("When was the first known use of the word quiz?")
+if answer == "1781":
+  print("Correct!")
+else:
+    print(f"The answer is 1781, not {answer!r}")
 
-sum = tree1+tree2+tree3+tree4+tree5
-print ("The sum of all the trees is: ", sum)
-
-
-average = sum/5
-print("The average of all the trees is:", average)
+answer = input("Which built in function can get information from the user?")
+if answer == "input":
+  print ("Correct!")
+else:
+    print(f"The answer is input, not {answer!r}")
